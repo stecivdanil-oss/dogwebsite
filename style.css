@@ -1,0 +1,99 @@
+/* .conteiner{
+    background-color: blueviolet;
+    max-width: 990px;
+    margin: 0 auto;
+margin-top: 20px;
+border-radius: 16px;
+}
+.box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+gap: 12px;
+padding: 12px;
+}
+.div{
+    background-color: aqua;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px blue;
+} 1*/
+
+/* @keyframes anim{
+    0%{
+        left: 0;
+    }
+    100%{
+        left: 350px;
+    }
+} */
+ /* body{
+    background-color: aqua;
+display: grid;
+place-items: center;
+min-height: 100vh;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(164, 108, 216);
+    width: 200px;
+    height: 340px;
+    justify-content: center;
+    gap: 14px;
+    padding:0 35px ;
+    border-radius: 16px;
+} */
+/* header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: aqua;
+}
+#items{
+    display: flex;
+    gap: 4px;
+}
+img{
+    height: 40px;
+}
+body{
+    background-color: rgb(138, 92, 182);
+}
+p{
+    font-size: 1rem;
+}
+h1{
+    font-size: 24px;
+}
+.dark-theme body {
+  background-color: #708993;
+  color: white;
+}
+
+.dark-theme header {
+  background-color: #19183B;
+} */
+ h1, h2, h5{
+text-align: center;
+ }
+ .container{
+max-width: 900px;
+margin: 0 auto;
+
+ }
+ .main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+gap: 5xp; 
+flex-wrap: wrap;
+}
+.card{
+    width: calc((900px - 10px)  / 3);
+position: relative;
+background: blue;
+}
+.card img{
+width: 100%;
+}
