@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    
+    
+    background-color:#ffd5d5;
+    
+
+    max-width: 390px;
+    max-height: 1109x;
+    margin-left:24px ;
+}
+.img_lister{
+    border-radius: 100px;
+    height: 160px;
+}
+h1{
+    font-size: 32px;
+}
+.name_lister{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:  24px;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+.name_discription{
+
+margin-top: 48px;
+display: flex;
+flex-direction: column;
+gap: 28px;
+}
+nav{
+    margin-top: 28px;
+}
+.albums_icon{
+    height: 200px;
+    width: 200px;
+border-radius: 8px;
+}
+.button_albums{
+    background-color: #b98b8b;
+    padding: 8px 60px;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+     display: block; /* або block */
+    text-align: center; 
+}
+.card_albums{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.conteiner_albums{
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+article{
+    margin-top: 28px;
+    margin-bottom: 60px;
+}
+.icon_sound{
+    height: 100px;
+    border-radius: 16px;
+}
+.icon_pleyer{
+    height: 40px;
+    width: 40px;
+}
+h4, h5{
+    font-weight: bolder;
+}
+h4{
+    font-size: 16px;
+}
+h5{
+    font-size: 14px;
+}
+.name{
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+}
+.img_name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+}
+.img_name_pleyer_music{
+    background-color:#b98b8b ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 8px 24px 8px 8px;
+    border-radius: 16px;
+   
+}
+.conteiner_music{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
