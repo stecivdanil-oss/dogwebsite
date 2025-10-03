@@ -4,3 +4,37 @@ main{
     align-items: center;
     margin-top: 28px;
 }
+.audio{
+    height: 30px;
+    width: 30px;
+    background: #ffd5d5;
+    border-color: #ffd5d5;
+     /* border-radius: 60px; */
+}
+button{
+  border-color: #ffd5d5;  
+  /* border-radius: 60px; */
+}
+#back_play{
+    transform: rotate(180deg);
+}
+#play{
+      height: 36px;
+    width: 36px;
+}
+.button_pleyer{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 28px;
+    /* border-bottom: black; */
+    margin-bottom: 40px;
+    box-shadow: none;
+}
+.albums_icon{
+    margin-bottom: 28px;
+}
+main{
+     border-bottom: 10px black !important;
+     
+}
